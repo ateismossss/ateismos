@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white" alt="Windows">
 </div>
 
----
+
 
 ##  **Mein Discord**
 <div align="center">
