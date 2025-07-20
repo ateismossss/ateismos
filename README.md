@@ -1,12 +1,16 @@
-<div align="center">
+# Ateismos Study Library
 
-# Jooooooooo 
+This repository contains a simple Python library for managing study notes.
 
- ## **Wie bist du hier gelandet?**   
-    
-##  **Mein Discord**
-<div align="center">
-    <a href="https://discord.com/users/ateismos" target="_blank">
-        <img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord">
-</div>
+## Usage
 
+```
+from studylib import StudyLibrary
+
+library = StudyLibrary()  # by default uses 'notes.json'
+library.add("First Note", "This is an example note.")
+all_notes = library.list()
+search_results = library.search("example")
+```
+
+Notes are stored in a JSON file which is automatically created in the current directory.
